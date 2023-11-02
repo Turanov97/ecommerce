@@ -1,0 +1,15 @@
+.admin_header {
+    padding: 10px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.admin_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_product_form {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}

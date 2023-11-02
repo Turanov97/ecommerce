@@ -1,12 +1,18 @@
 <template>
   <div>
-    admin panel
+    <AdminHeader/>
+    <router-view/>
   </div>
 </template>
 
 <script>
+import AdminHeader from "../views/admin/AdminHeader";
 export default {
-  name: "admin-layout"
+  name: "admin-layout",
+  components: {
+    AdminHeader
+  }
+
 }
 </script>
 
